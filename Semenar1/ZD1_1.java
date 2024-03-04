@@ -5,12 +5,13 @@ import java.util.Scanner;
 
 public class ZD1_1{
     public static void main(String[] args) {
+        LocalTime nowTime = LocalTime.now();
         Scanner namScanner = new Scanner(System.in);
         System.out.printf("Ведите имя: ", "\n");
         String name = namScanner.nextLine();
-        System.out.printf("Привет, %s!", name);
         namScanner.close();
-        LocalTime nowTime = LocalTime.now();
-        System.out.println(nowTime);
-    }
+        }
+        
+       
 }
+
